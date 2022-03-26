@@ -27,8 +27,6 @@ View variable name and methods in python.
                 print("\n")   
             
         return [myIdNAME, list(myFIND)] 
-            
-            return list(myFIND)
     
 # You can run likes this : 
     H = b"123"
