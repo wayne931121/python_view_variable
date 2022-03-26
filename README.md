@@ -9,14 +9,14 @@ View variable name and methods in python.
         myIdNAME = 0
         myFIND = globals().copy().keys()
         myID = id(variable)
-    
+        
         for i in myFIND:
             if id(globals()[i]) == myID :
                 myIdNAME = i
                 break
-    
+        
         myFIND = dir(variable)
-    
+        
         if display :
             print("Variable Name : \" {}".format(myIdNAME)+" \"\n")
             print("Value : \" {}".format(variable)+" \"\n")
@@ -25,8 +25,10 @@ View variable name and methods in python.
                 print(i)
                 print(eval(myIdNAME+"."+i))
                 print("\n")   
-        
-        return list(myFIND)
+            
+        return [myIdNAME, list(myFIND)] 
+            
+            return list(myFIND)
     
 # You can run likes this : 
     H = b"123"
