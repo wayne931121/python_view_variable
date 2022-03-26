@@ -1,4 +1,4 @@
-I don't know if I translate correctly ,because my English is bad.
+I don't know if I translated correctly ,because my English is bad.
 
 # python_view_variable
 View variable name and methods in python.
