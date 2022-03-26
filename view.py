@@ -22,7 +22,7 @@ def view(variable, display=True):
             print(eval(myIdNAME+"."+i))
             print("\n")   
         
-    return list(myFIND)
+    return [myIdNAME, list(myFIND)]
 
 if __name__ == "__main__" :
     a = 0
