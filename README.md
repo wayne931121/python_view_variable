@@ -31,3 +31,12 @@ View variable name and methods in python.
 # You can run likes this : 
     H = b"123"
     view(H)
+    
+# Or Get the Variable Name and Methods :
+    A = "hello"
+    name, methods = view(A,False)
+    print(name)
+    print(methods)
+    
+# You can follow the url below to test it in colab.  
+    https://github.com/wayne931121/python_view_variable/blob/main/View_Variable_Colab.ipynb
