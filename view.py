@@ -9,6 +9,7 @@ def view(variable):
             break
             
     print("Variable Name : \" "+myIdNAME+" \"\n")
+    print("Value : \" {}".format(variable)+" \"\n")
     print("Methods and Result : \n")
     
     myFIND = dir(variable)
@@ -20,9 +21,10 @@ def view(variable):
         
     return
 
-if "__name__" == "__main__" :
+if __name__ == "__main__" :
     a = 0
     view(a)
+    
 """
 a = 0
 view(a)
@@ -30,6 +32,8 @@ view(a)
 It may output likes that :
 
 Variable Name : " a "
+
+Value : " 0 "
 
 Methods and Result : 
 
