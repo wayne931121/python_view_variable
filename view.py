@@ -10,14 +10,13 @@ def view(variable, display=True):
         if id(globals()[i]) == myID :
             myIdNAME = i
             break
-            
-    print("Variable Name : \" {}".format(myIdNAME)+" \"\n")
-    print("Value : \" {}".format(variable)+" \"\n")
-    print("Methods and Result : \n")
     
     myFIND = dir(variable)
     
     if display :
+        print("Variable Name : \" {}".format(myIdNAME)+" \"\n")
+        print("Value : \" {}".format(variable)+" \"\n")
+        print("Methods and Result : \n")      
         for i in myFIND :  
             print(i)
             print(eval(myIdNAME+"."+i))
