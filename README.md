@@ -1,7 +1,7 @@
 I don't know if I translated correctly ,because my English is bad.
 
 # python_view_variable
-View variable name and methods in python.
+View globals variable name and methods in python.
 
 # Copy the "view" function below ,and paste to your python.
 
