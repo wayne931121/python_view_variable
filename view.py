@@ -1,5 +1,5 @@
 ### Don't import it.
-### Please copy the view function and paste to your python.
+### Please copy the "view" function and paste to your python.
 
 def view(variable, display=True):
     myIdNAME = 0
