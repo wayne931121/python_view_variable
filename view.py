@@ -1,4 +1,4 @@
-def view(variable):
+def view(variable, display=True):
     myIdNAME = 0
     myFIND = globals().copy().keys()
     myID = id(variable)
@@ -14,12 +14,13 @@ def view(variable):
     
     myFIND = dir(variable)
     
-    for i in myFIND :  
-        print(i)
-        print(eval(myIdNAME+"."+i))
-        print("\n")   
+    if display :
+        for i in myFIND :  
+            print(i)
+            print(eval(myIdNAME+"."+i))
+            print("\n")   
         
-    return
+    return list(myFIND)
 
 if __name__ == "__main__" :
     a = 0
