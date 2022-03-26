@@ -32,7 +32,7 @@ View variable name and methods in python.
     H = b"123"
     view(H)
     
-# Or Get the Variable Name and Methods :
+# Get the Variable Name and Methods :
     A = "hello"
     name, methods = view(A,False)
     print(name)
