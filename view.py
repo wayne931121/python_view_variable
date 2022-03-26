@@ -8,7 +8,7 @@ def view(variable, display=True):
             myIdNAME = i
             break
             
-    print("Variable Name : \" "+myIdNAME+" \"\n")
+    print("Variable Name : \" {}".format(myIdNAME)+" \"\n")
     print("Value : \" {}".format(variable)+" \"\n")
     print("Methods and Result : \n")
     
