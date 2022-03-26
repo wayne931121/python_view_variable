@@ -39,4 +39,4 @@ View variable name and methods in python.
     print(methods)
     
 # You can follow the url below to test it in colab.  
-    https://github.com/wayne931121/python_view_variable/blob/main/View_Variable_Colab.ipynb
+https://github.com/wayne931121/python_view_variable/blob/main/View_Variable_Colab.ipynb
